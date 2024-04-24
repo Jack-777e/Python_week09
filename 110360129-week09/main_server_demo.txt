@@ -1,0 +1,39 @@
+使用中的字碼頁: 950
+
+(base) G:\python\week09> cmd /C "c:\ProgramData\Anaconda3\python.exe c:\Users\chest\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher 7813 -- G:\python\week09\main_server.py "
+使用中的字碼頁: 950
+('127.0.0.1', 7828) connected
+{'command': 'show', 'parameters': ''}
+    server received: {'command': 'show', 'parameters': ''} from ('127.0.0.1', 7828)
+{'command': 'query', 'parameters': {'name': 'Test1'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test1'}} from ('127.0.0.1', 7828)
+{'command': 'add', 'parameters': {'name': 'Test1', 'scores': {'English': 99.0, 'Chinese': 88.0}}}
+    server received: {'command': 'add', 'parameters': {'name': 'Test1', 'scores': {'English': 99.0, 'Chinese': 88.0}}} from ('127.0.0.1', 7828)
+{'command': 'show', 'parameters': ''}
+    server received: {'command': 'show', 'parameters': ''} from ('127.0.0.1', 7828)
+{'command': 'query', 'parameters': {'name': 'Test2'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test2'}} from ('127.0.0.1', 7828)
+{'command': 'add', 'parameters': {'name': 'Test2', 'scores': {'Python': 11.0}}}
+    server received: {'command': 'add', 'parameters': {'name': 'Test2', 'scores': {'Python': 11.0}}} from ('127.0.0.1', 7828)
+{'command': 'show', 'parameters': ''}
+    server received: {'command': 'show', 'parameters': ''} from ('127.0.0.1', 7828)
+{'command': 'query', 'parameters': {'name': 'Test2'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test2'}} from ('127.0.0.1', 7828)
+{'command': 'modify', 'parameters': {'name': 'Test2', 'scores_dict': {'Python': 11.0, 'Eng': 100.0}}}
+    server received: {'command': 'modify', 'parameters': {'name': 'Test2', 'scores_dict': {'Python': 11.0, 'Eng': 100.0}}} from ('127.0.0.1', 7828)        
+{'command': 'show', 'parameters': ''}
+    server received: {'command': 'show', 'parameters': ''} from ('127.0.0.1', 7828)
+{'command': 'query', 'parameters': {'name': 'Test3'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test3'}} from ('127.0.0.1', 7828)
+{'command': 'query', 'parameters': {'name': 'Test2'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test2'}} from ('127.0.0.1', 7828)
+{'command': 'modify', 'parameters': {'name': 'Test2', 'scores_dict': {'Python': 19.0, 'Eng': 100.0}}}
+    server received: {'command': 'modify', 'parameters': {'name': 'Test2', 'scores_dict': {'Python': 19.0, 'Eng': 100.0}}} from ('127.0.0.1', 7828)        
+{'command': 'query', 'parameters': {'name': 'Test2'}}
+    server received: {'command': 'query', 'parameters': {'name': 'Test2'}} from ('127.0.0.1', 7828)
+{'command': 'del', 'parameters': {'name': 'Test2'}}
+    server received: {'command': 'del', 'parameters': {'name': 'Test2'}} from ('127.0.0.1', 7828)
+('127.0.0.1', 7828) close connection
+('127.0.0.1', 8104) connected
+{'command': 'show', 'parameters': ''}
+    server received: {'command': 'show', 'parameters': ''} from ('127.0.0.1', 8104)
